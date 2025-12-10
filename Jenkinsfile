@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         MAVEN_HOME = tool name: 'Maven 3.9', type: 'maven' // Nom du Maven configuré dans Jenkins
-        JAVA_HOME  = tool name: 'JDK 17.0.11', type: 'jdk'      // Nom du JDK configuré dans Jenkins
+        JAVA_HOME  = tool name: 'jdk 17.0.11', type: 'JDK'      // Nom du JDK configuré dans Jenkins
         PATH       = "${JAVA_HOME}\\bin;${MAVEN_HOME}\\bin;%PATH%"
     }
 
